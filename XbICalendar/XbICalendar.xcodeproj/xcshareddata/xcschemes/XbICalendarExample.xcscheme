@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "277F38E51E890B84007A5A3D"
-               BuildableName = "XbICalendar.framework"
-               BlueprintName = "XbICalendar"
+               BlueprintIdentifier = "F12F48EB19332EA4003631C5"
+               BuildableName = "XbICalendarExample.app"
+               BlueprintName = "XbICalendarExample"
+               ReferencedContainer = "container:XbICalendar.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F12F490C19332EA4003631C5"
+               BuildableName = "XbICalendarTests.xctest"
+               BlueprintName = "XbICalendarTests"
                ReferencedContainer = "container:XbICalendar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,7 +42,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F12F490C19332EA4003631C5"
+               BuildableName = "XbICalendarTests.xctest"
+               BlueprintName = "XbICalendarTests"
+               ReferencedContainer = "container:XbICalendar.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F12F48EB19332EA4003631C5"
+            BuildableName = "XbICalendarExample.app"
+            BlueprintName = "XbICalendarExample"
+            ReferencedContainer = "container:XbICalendar.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +75,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "277F38E51E890B84007A5A3D"
-            BuildableName = "XbICalendar.framework"
-            BlueprintName = "XbICalendar"
+            BlueprintIdentifier = "F12F48EB19332EA4003631C5"
+            BuildableName = "XbICalendarExample.app"
+            BlueprintName = "XbICalendarExample"
             ReferencedContainer = "container:XbICalendar.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +94,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "277F38E51E890B84007A5A3D"
-            BuildableName = "XbICalendar.framework"
-            BlueprintName = "XbICalendar"
+            BlueprintIdentifier = "F12F48EB19332EA4003631C5"
+            BuildableName = "XbICalendarExample.app"
+            BlueprintName = "XbICalendarExample"
             ReferencedContainer = "container:XbICalendar.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
